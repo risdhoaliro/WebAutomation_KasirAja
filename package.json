@@ -1,0 +1,24 @@
+{
+  "name": "automation-kasir-using-cypress",
+  "version": "1.0.0",
+  "description": "cypress kasir aja end to end",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "kasiraja"
+  ],
+  "author": "risdhoas",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.5.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
